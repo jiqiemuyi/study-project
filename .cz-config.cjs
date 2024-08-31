@@ -57,6 +57,7 @@ module.exports = {
 
   allowCustomScopes: true,
   allowBreakingChanges: ["feat", "fix"],
+  skipQuestions: ["body", "footer"],
   // 限制标题长度
   subjectLimit: 100,
 };
