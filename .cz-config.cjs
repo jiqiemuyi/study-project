@@ -1,6 +1,7 @@
 module.exports = {
   types: [
     { value: "feat", name: "feat:     新功能" },
+    { value: "wip", name: "wip:      工作进行中" }, // 添加 wip 类型
     { value: "fix", name: "fix:      修复bug" },
     { value: "docs", name: "docs:     仅文档变更" },
     {
