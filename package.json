@@ -2,7 +2,8 @@
   "private": true,
   "author": "jia.yang <muyijiqie@gmail.com>",
   "scripts": {
-    "dev": "cross-env HOST=local.sk8s.cn umi dev",
+    "dev": "cross-env umi dev",
+    "dev:sk8s": "cross-env HOST=local.sk8s.cn umi dev",
     "build": "umi build",
     "postinstall": "umi setup",
     "setup": "umi setup",
