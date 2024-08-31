@@ -20,12 +20,12 @@
     "cz-customizable": "^7.2.1",
     "typescript": "^5.0.3"
   },
-  "config":{
+  "config": {
     "commitizen": {
       "path": "node_modules/cz-customizable"
+    },
+    "cz-customizable": {
+      "config": ".cz-config.cjs"
     }
-  },
-  "czCustomizable": {
-    "config": ".cz-config.cjs"
   }
 }
