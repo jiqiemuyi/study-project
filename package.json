@@ -8,7 +8,7 @@
     "postinstall": "umi setup",
     "setup": "umi setup",
     "start": "npm run dev",
-    "prepare": "husky",
+    "prepare": "husky install",
     "commit": "git add -A && git-cz"
   },
   "dependencies": {
@@ -16,11 +16,12 @@
     "umi": "^4.3.18"
   },
   "devDependencies": {
+    "@commitlint/config-conventional": "^19.4.1",
     "@types/react": "^18.0.33",
     "@types/react-dom": "^18.0.11",
     "commitizen": "^4.3.0",
     "cz-customizable": "^7.2.1",
-    "husky": "^9.1.5",
+    "husky": "^7.0.4",
     "typescript": "^5.0.3"
   },
   "config": {
