@@ -13,13 +13,16 @@
   },
   "dependencies": {
     "cross-env": "^7.0.3",
+    "dayjs": "^1.11.13",
+    "number-precision": "^1.6.0",
     "umi": "^4.3.18"
   },
   "devDependencies": {
-    "@commitlint/config-conventional": "^19.4.1",
     "@types/react": "^18.0.33",
     "@types/react-dom": "^18.0.11",
-    "commitizen": "^4.3.0",
+    "@commitlint/cli": "^12.1.4",
+    "commitizen": "4.2.4",
+    "commitlint-config-cz": "^0.13.3",
     "cz-customizable": "^7.2.1",
     "husky": "^7.0.4",
     "typescript": "^5.0.3"
