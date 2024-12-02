@@ -4,9 +4,9 @@ import React from "react";
  * @Author: Jia.Yang
  * @Date: 2024-11-29 14:48:28
  * @LastEditors: Jia.Yang jia.yang@duomai.com
- * @LastEditTime: 2024-12-02 13:44:39
+ * @LastEditTime: 2024-12-02 13:46:54
  * @FilePath: \study-project\src\hooks\useTime.ts
- * @Description:获取时间hook
+ * @Description:获取时间的hook
  */
 function useTime() {
   const [time, setTime] = React.useState(new Date());
